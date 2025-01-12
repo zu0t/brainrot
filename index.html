@@ -10,9 +10,26 @@
 </head>
 <body>
     <div class="container">
-        <h1>Brainrot Words Generator</h1>
-        <button id="generateButton" onclick="generateWord()">Generate Word</button>
-        <div class="word-box" id="wordBox">⁥</div>
+        <div class="left">
+            <h1>Brainrot Words Generator</h1>
+            <button id="generateButton" onclick="generateWord()">Generate Word</button>
+            <div class="word-box" id="wordBox">⁥</div>
+            <textarea></textarea>
+        </div>
+        <div class="right">
+            <div class="countdown" id="countdown">2:00</div>
+            <div class="countdown-controls">
+                <button onclick="startCountdown()">Start</button>
+                <button onclick="pauseCountdown()">Pause</button>
+                <button onclick="resetCountdown()">Reset</button>
+            </div>
+            <div class="adjust-buttons">
+                <button onclick="adjustCountdown(10)">+10s</button>
+                <button onclick="adjustCountdown(-10)">-10s</button>
+                <button onclick="adjustCountdown(30)">+30s</button>
+                <button onclick="adjustCountdown(-30)">-30s</button>
+            </div>
+        </div>
     </div>
 </body>
 </html>
