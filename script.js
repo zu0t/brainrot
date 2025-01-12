@@ -2,7 +2,7 @@ const words = ["skibidi", "sigma", "rizz", "gyatt", "winter arc", "massive", "lo
         
         function generateWord() {
             if (words.length === 0) {
-                document.getElementById('wordBox').innerText = "No more brainrot (refresh to play again)\nI'VE PLAYED THESE GAMES BEFORE!";
+                document.getElementById('wordBox').innerText = "No more brainrot (refresh to play again)\nI'VE PLAYED THESE GAMES BEFORE!!";
                 document.getElementById('generateButton').disabled = true;
                 return;
             }
