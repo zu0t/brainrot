@@ -1,4 +1,4 @@
-const words = ["mango", "chopped chin", "fanum tax", "what the sigma", "John Pork", "knee surgery", "chill guy", "let him cook", "aura", "calc (short for calculator)", "nonchalant", "huzz", "ts", "icl", "tripitropi", "tralalerotralala", "chicken jockey", "RELEASE!", "I am Steve", "flint and steel", "kevin", "yogurt", "owen"];
+const words = ["mango", "chopped chin", "fanum tax", "what the sigma", "John Pork", "knee surgery", "chill guy", "let him cook", "aura", "calc (short for calculator)", "nonchalant", "huzz", "icl", "tripitropi", "tralalerotralala", "chicken jockey", "RELEASE!", "I am Steve", "flint and steel", "kevin", "yogurt", "owen"];
         
         function generateWord() {
             if (words.length === 0) {
